@@ -62,7 +62,7 @@ class MainActivity : AppCompatActivity() {
                 // Get user
                 var user: FirebaseUser? = FirebaseAuth.getInstance().currentUser
                 // show email on toast
-                Toast.makeText(this, "${user!!.photoUrl}", Toast.LENGTH_SHORT).show()
+                Toast.makeText(this, "${user!!.email}", Toast.LENGTH_SHORT).show()
                 // Get button signout
                 log_out_button.isEnabled = true
             }

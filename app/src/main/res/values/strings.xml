@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">Splash</string>
+    <string name="app_name">social media login</string>
     <string name="logout">Logout</string>
     <string name="facebook_application_id" translatable="false">1156928724684498</string>
     <string name="facebook_login_protocol_scheme" translatable="false">fb1156928724684498</string>
